@@ -36,11 +36,6 @@ services:
       - QDRANT__LOG_LEVEL=INFO
       - QDRANT__TELEMETRY_DISABLED=true
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:6333/healthz"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
 
   # Serviço Open WebUI - interface web unificada
   open-webui:
