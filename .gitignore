@@ -2,3 +2,7 @@
 ./ollama_data/*
 ./open-webui_data/*
 ./qdrant_data/*
+models/*
+ollama_data/*
+open-webui_data/*
+qdrant_data/*
